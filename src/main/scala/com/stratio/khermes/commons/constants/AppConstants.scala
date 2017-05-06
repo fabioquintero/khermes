@@ -73,6 +73,8 @@ object AppConstants {
         |     help : Print this usage.
         |     exit | quit | bye : Exit of Khermes Cli. """.stripMargin
 
-  val DefaultWSHost = "localhost"
+  val DefaultWSHost = "0.0.0.0"
   val DefaultWSPort = 8080
+
+  val DefaultStrategy = Option("default")
 }
